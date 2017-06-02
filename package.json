@@ -1,0 +1,29 @@
+{
+  "name": "redpacket-service",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.fengchaohuzhu.com:10022/server/redpacket-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hive-service": "git+ssh://git@git.fengchaohuzhu.com:10022/server/hive-service.git",
+    "hive-verify": "git+ssh://git@git.fengchaohuzhu.com:10022/server/hive-verify.git"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.0.36",
+    "@types/msgpack-lite": "^0.1.1",
+    "@types/pg-pool": "0.0.2",
+    "@types/redis": "^0.12.33",
+    "@types/uuid-1345": "^0.99.20",
+    "order-library": "git+ssh://git@git.fengchaohuzhu.com:10022/server/order-library.git",
+    "redpacket-library": "git+ssh://git@git.fengchaohuzhu.com:10022/server/redpacket-library.git"
+  }
+
+}
