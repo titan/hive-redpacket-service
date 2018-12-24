@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@git.fengchaohuzhu.com:10022/server/redpacket-service.git"
+    "url": "ssh://git@github.com/titan/hive-redpacket-service.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hive-service": "git+ssh://git@git.fengchaohuzhu.com:10022/server/hive-service.git",
-    "hive-verify": "git+ssh://git@git.fengchaohuzhu.com:10022/server/hive-verify.git"
+    "hive-service": "git+ssh://git@github.com/titan/hive-service.git",
+    "hive-verify": "git+ssh://git@github.com/titan/hive-verify.git"
   },
   "devDependencies": {
     "@types/bluebird": "^3.0.36",
@@ -22,8 +22,8 @@
     "@types/pg-pool": "0.0.2",
     "@types/redis": "^0.12.33",
     "@types/uuid-1345": "^0.99.20",
-    "order-library": "git+ssh://git@git.fengchaohuzhu.com:10022/server/order-library.git",
-    "redpacket-library": "git+ssh://git@git.fengchaohuzhu.com:10022/server/redpacket-library.git"
+    "order-library": "git+ssh://git@github.com/titan/hive-order-library.git",
+    "redpacket-library": "git+ssh://git@github.com/titan/hive-redpacket-library.git"
   }
 
 }
